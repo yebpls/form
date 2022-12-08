@@ -8,54 +8,102 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="form1">
-      <form action="#" class="hobbies">
-        <h2>sở thích của bạn</h2>
-        <div class="form-content">
-          <label for="name">Họ và tên</label>
-          <input type="text" id="name" name="name" />
-          <br />
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" />
-          <br />
-          <div class="hobby-box">
-            <p>Sở thích</p>
-            <div class="check">
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="1" />
-                <label for="1">Thể thao</label>
-              </div>
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="2" />
-                <label for="2">Âm nhạc</label>
-              </div>
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="3" />
-                <label for="3">Đọc sách</label>
-              </div>
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="4" />
-                <label for="4">Lướt web</label>
-              </div>
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="5" />
-                <label for="5">Chơi game</label>
-              </div>
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="6" />
-                <label for="6">Điện ảnh</label>
-              </div>
-              <div class="hobby">
-                <input type="checkbox" name="hobby" id="7" />
-                <label for="7">Du lịch</label>
+    <div class="container">
+      <div class="form1">
+        <form action="#" class="hobbies">
+          <h2>sở thích của bạn</h2>
+          <div class="form-content">
+            <label for="name">Họ và tên</label>
+            <input type="text" id="name" name="name" />
+            <br />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+            <br />
+            <div class="hobby-box">
+              <p>Sở thích</p>
+              <div class="check">
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="1" />
+                  <label for="1">Thể thao</label>
+                </div>
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="2" />
+                  <label for="2">Âm nhạc</label>
+                </div>
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="3" />
+                  <label for="3">Đọc sách</label>
+                </div>
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="4" />
+                  <label for="4">Lướt web</label>
+                </div>
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="5" />
+                  <label for="5">Chơi game</label>
+                </div>
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="6" />
+                  <label for="6">Điện ảnh</label>
+                </div>
+                <div class="hobby">
+                  <input type="checkbox" name="hobby" id="7" />
+                  <label for="7">Du lịch</label>
+                </div>
               </div>
             </div>
+            <br />
+            <button type="submit">Gửi thông tin</button>
+            <button type="reset">Nhập lại</button>
           </div>
-          <br />
-          <button type="submit">Gửi thông tin</button>
-          <button type="reset">Nhập lại</button>
+        </form>
+      </div>
+      <div class="form2">
+        <div class="reg-form">
+          <form action="#" class="reg">
+            <h2 class="reg-form-title">đăng ký học viên</h2>
+            <div class="reg-form-content">
+              <div class="input">
+                <label for="name">Họ và tên</label>
+                <input type="text" id="name" name="name" />
+              </div>
+              <div class="input">
+                <label for="dob">Ngày sinh</label>
+                <input type="text" id="dob" name="dob" />
+              </div>
+              <div class="input">
+                <label for="gender">Giới tính</label>
+                <input type="radio" name="gender" /> Nam
+                <input type="radio" name="gender" /> Nữ
+              </div>
+              <div class="input">
+                <label for="add">Địa chỉ</label>
+                <textarea name="add" id="add" cols="30" rows="10"></textarea>
+              </div>
+              <div class="input">
+                <label for="class">Lớp</label>
+                <select name="class" id="class">
+                  <option value="" disabled selected>Chọn lớp</option>
+                  <option value="1">Front-end</option>
+                  <option value="2">Back-end</option>
+                  <option value="3">Fullstack</option>
+                  <option value="4">JAVA</option>
+                </select>
+              </div>
+              <div class="input">
+                <label for="mail">Email</label>
+                <input type="text" id="mail" name="mail" />
+              </div>
+              <div class="input">
+                <label for="phone">Điện thoại</label>
+                <input type="text" id="phone" name="phone" />
+              </div>
+              <button class="btn1" type="submit">Đăng ký</button>
+              <button type="reset">Nhập lại</button>
+            </div>
+          </form>
         </div>
-      </form>
+      </div>
     </div>
   </body>
 </html>

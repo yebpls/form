@@ -3,6 +3,12 @@
   box-sizing: border-box;
   font-size: 14px;
 }
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .form1 {
   background-color: #d5fefe;
   width: 25vw;
@@ -53,4 +59,34 @@
 }
 .hobbies .form-content .hobby-box .check .hobby label {
   color: orange;
+}
+
+.form2 {
+  background-color: beige;
+  width: 30vw;
+}
+
+.form2 .reg-form .reg {
+  padding: 5px;
+}
+
+.form2 .reg-form .reg .reg-form-title {
+  color: blue;
+  background-color: aquamarine;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: lighter;
+}
+
+.form2 .reg-form .reg .reg-form-content .input {
+  margin-bottom: 5px;
+}
+
+.form2 .reg-form .reg .reg-form-content .input label {
+  display: inline-block;
+  width: 80px;
+}
+
+.form2 .reg-form .reg .reg-form-content .btn1 {
+  margin-left: 84px;
 }
