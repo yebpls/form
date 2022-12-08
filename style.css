@@ -1,6 +1,12 @@
 * {
   font-family: sans-serif;
+  box-sizing: border-box;
   font-size: 14px;
+}
+.form1 {
+  background-color: #d5fefe;
+  width: 25vw;
+  padding: 5px 0 0px 0;
 }
 
 .hobbies {
